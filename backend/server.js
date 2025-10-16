@@ -13,7 +13,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-     origin: "http://localhost:3000", // frontend origin
+     origin: "https://venerable-gaufre-016e9d.netlify.app/", // frontend origin
     credentials: true,
 }
 ));
